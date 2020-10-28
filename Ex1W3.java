@@ -4,14 +4,14 @@ public class Ex1W3
 {
 	public static void main (String [] nilaiTerima)
 	{
-		int noInt = 10, x ;
+		/*int noInt = 10, x ;*/
 
 		/*if(noInt == 10)
 			System.out.println("sama");
 		else 
 			System.out.println("tak sama");*/
 
-		System.out.println(noInt == 10 ? "sama" : "tak sama");
+		/*System.out.println(noInt == 10 ? "sama" : "tak sama");
 
 		if(noInt == 10)
 			x = 3;
@@ -21,7 +21,7 @@ public class Ex1W3
 		//ternary operator
 		x = noInt == 10 ? 3 : 19 ;
 
-		System.out.println("x is :" + x);
+		System.out.println("x is :" + x);*/
 
 
 		/*String nama;
@@ -99,13 +99,12 @@ public class Ex1W3
 		System.out.println("Nilai 1: " + nilaiTerima[1]);
 		System.out.println("Nilai 1: " + nilaiTerima[2]);*/
 
-
-		/*int sum = 0;
+		/*int sum = 0; 
 
 		for(int i = 0; i < nilaiTerima.length; i++)
 		{
 			System.out.println("Nilai 1: " + nilaiTerima[i]);
-			sum += Integer.parseInt(nilaiTerima[i]);
+			sum += Integer.parseInt(nilaiTerima[i]); //kat cmd baru letak no
 			System.out.println("Nilai sum: " + sum);
 		}*/
 	}
